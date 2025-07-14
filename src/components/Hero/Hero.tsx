@@ -16,7 +16,7 @@ export default function Hero({ mainTitle, herobtn, herovideo1, herovideo2 , text
       <video data-aos="flip-left" autoPlay muted loop className="w-[80%] !hidden md:!block">
         <source src={herovideo1} type="video/mp4" />
       </video>
-      <video data-aos="flip-left" autoPlay muted loop className="w-[80%] !block md:!hidden">
+      <video data-aos="flip-left" autoPlay muted loop className="w-[80%] py-3 h-[280px] !block md:!hidden">
         <source src={herovideo2} type="video/mp4" />
       </video>
       <div data-aos="fade-up" className='flex justify-center items-center flex-col gap-7'>

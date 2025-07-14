@@ -1,6 +1,7 @@
 import React from 'react';
 import { CiSearch } from 'react-icons/ci';
 import { FaApple } from 'react-icons/fa';
+import { FaSquareXmark } from 'react-icons/fa6';
 import { IoBagOutline } from 'react-icons/io5';
 
 interface Item {
@@ -28,6 +29,8 @@ export default function NavItems({ items, show  , height}: NavItemsProps) {
         <div className='text-white text-lg gap-3 flex flex-col md:hidden'>
           <CiSearch />
           <IoBagOutline />
+          <FaSquareXmark onClick={() => show(prev => !prev)}  />
+
         </div>
       </ul>
     </>

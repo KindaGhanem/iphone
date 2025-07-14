@@ -14,7 +14,7 @@ export default function MainTitle({mainTitle , herotitle ,highlight , closerlook
   return (
     <>
     <h1 data-aos="fade-down" className={`font-semibold text-start text-[#94928d] 
-      ${herotitle ? 'text-3xl pt-40 text-center' : ''} 
+      ${herotitle ? 'text-3xl pt-[80px] md:pt-40 text-center' : ''} 
       ${highlight ? 'text-3xl md:text-6xl' : ''} 
       ${closerlook ? `text-5xl  font-bold !pt-14` : ''}
 
