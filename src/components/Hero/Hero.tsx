@@ -19,7 +19,7 @@ export default function Hero({ mainTitle, herobtn, herovideo1, herovideo2 , text
       <video data-aos="flip-left" autoPlay muted loop className="w-[80%] py-3 h-[280px] !block md:!hidden">
         <source src={herovideo2} type="video/mp4" />
       </video>
-      <div data-aos="fade-up" className='flex justify-center items-center flex-col gap-7'>
+      <div className='flex justify-center items-center flex-col gap-7 pb-7'>
         <button className="bg-[#2997ff] text-white rounded-3xl px-5 py-2  text-lg hover:text-[#2997ff] hover:bg-white">{herobtn}</button>
         <p className='text-white font-normal text-xl pb-14'>{texthero}</p>
       </div>
