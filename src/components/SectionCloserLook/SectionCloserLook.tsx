@@ -40,14 +40,14 @@ const SectionCloserLook = ({ mainTitle, closerlooktext, sizes, models }: closerL
           </div>
           <p className="text-sm max-w-md mx-auto my-5 text-white"> {closerlooktext} </p>
 
-          <div className="flex flex-col md:flex-row items-center gap-4 pb-14"  data-aos="fade-right">
+          <div className="flex flex-col md:flex-row items-center gap-4 pb-14">
             <ul className="flex items-center bg-[#42424570] p-[15px] rounded-full">
               {models.map((item, i) => (
                 <li key={i}  className="w-6 h-6 rounded-full mx-2 cursor-pointer border-gray-300 "  style={{ backgroundColor: item.color[0] }}  onClick={() => setModel(item)} ></li>
               ))}
             </ul>
 
-            <div className="flex items-center gap-2 bg-[#42424570] p-2 rounded-full"  data-aos="fade-left">
+            <div className="flex items-center gap-2 bg-[#42424570] p-2 rounded-full">
               {sizes?.map(({ label, value }) => (
                 <button key={label} onClick={() => setSize(value)} className={`px-2 py-1 rounded-full ${   size === value ? "bg-white text-black" : "bg-transparent text-white border-white" } transition`}> {label} </button>
               ))}
