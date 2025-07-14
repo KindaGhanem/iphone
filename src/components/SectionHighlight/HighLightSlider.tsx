@@ -45,9 +45,9 @@ export default function VideoSlider() {
     <>
       <div className="w-full overflow-hidden">
         <div className="relative overflow-hidden">
-          <div   className="flex gap-[100px] transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${current * 100}%) md:translateX(-${current * 80}%)` }}>
+          <div   className="flex md:gap-[100px] transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${current * 100}%)` }}>
             {slides.map((slide, i) => (
-              <div key={slide.id} className="w-full md:w-[80%] flex-shrink-0 relative" >
+              <div key={slide.id} className="w-full flex-shrink-0 relative" >
                 <video  src={slide.src} ref={(el) => {
                     if (el) videoRefs.current[i] = el;
                   }}
@@ -66,9 +66,9 @@ export default function VideoSlider() {
         </div>
       </div>
 
-      <div className="flex gap-8 justify-center items-center mt-6 pb-14" >
+      <div className="flex gap-8 justify-center items-center mt-6 pb-14 overflow-hidden" >
 
-        <div className="flex justify-center items-center space-x-3 bg-gray-700 px-8 py-4 rounded-full "  data-aos="fade-right">
+        <div className="flex justify-center items-center space-x-3 bg-gray-700 px-8 py-4 rounded-full ">
           {slides.map((_, i) => (
             <span
               key={i}
@@ -80,7 +80,7 @@ export default function VideoSlider() {
         </div>
 
 
-        <div className="flex justify-center"  data-aos="fade-left">
+        <div className="flex justify-center">
           <button
             onClick={togglePlay}
             className="bg-gray-700 text-white p-4 rounded-full"

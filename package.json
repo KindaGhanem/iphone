@@ -2,8 +2,11 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://{KindaGhanem}.github.io/{iphone}/",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
