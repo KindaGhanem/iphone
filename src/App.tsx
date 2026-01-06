@@ -71,6 +71,11 @@ useEffect(() => {
     <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
     <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
     <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
+    <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
+    <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
+    <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
+    <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
+    <Footer parfooter1={'More ways to shop: '} spanfooter1={'Find an Apple Store or  other retailer '} parfooter2={'near you.'} parfooter3={'Or call 000800-040-1966'} copyrightfooter={'Copright @ 2024 Apple Inc. All rights reserved.'} footerLinks={footerLinks} />
     </>
   )
 }
