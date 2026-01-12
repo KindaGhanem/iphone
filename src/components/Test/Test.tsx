@@ -3,15 +3,23 @@ interface FooterLinks {
   link: string;
 }
 
-interface footerInter {
-  parfooter1: string;
-  spanfooter1: string;
-  parfooter2: string;
-  parfooter3: string;
-  copyrightfooter: string;
-  footerLinks: FooterLinks[];
-}
+export default function Test({
+  parfooter1,
+  spanfooter1,
+  parfooter2,
+  parfooter3,
+  copyrightfooter,
+  footerLinks
+}: footerInter)
 
+export default function Test({
+  parfooter1,
+  spanfooter1,
+  parfooter2,
+  parfooter3,
+  copyrightfooter,
+  footerLinks
+}: footerInter) 
 export default function Test({
   parfooter1,
   spanfooter1,
